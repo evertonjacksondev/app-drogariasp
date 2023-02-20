@@ -9,7 +9,7 @@ const TableHeader = styled.th`
     color: white;
     max-width: 1120px;
     margin: 20px auto;
-    width: 25%;
+    width: 20%;
     justify-content: space-around;
     padding: 15px 0px;
   
@@ -30,7 +30,6 @@ text-align: center;
 `
 const Tables = styled.table`
 font-size: 12px;
-max-width: 1120px;
 width: 100%;
 align-items: 'center';
 border-collapse: collapse;
@@ -55,6 +54,68 @@ const Table = () => {
                     <TableHeader>Ação</TableHeader>
                 </TableRow>
                 <TableRow>
+                    <TableData>Dorflex</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>Dipirona</TableData>
+                    <TableData>Sonrisal</TableData>
+                    <TableData>Engov</TableData>
+                    <TableData>2</TableData>
+                    <TableData><Button>Detalhes</Button></TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Dorflex</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>Dipirona</TableData>
+                    <TableData>Sonrisal</TableData>
+                    <TableData>Engov</TableData>
+                    <TableData>2</TableData>
+                    <TableData><Button>Detalhes</Button></TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Dorflex</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>Dipirona</TableData>
+                    <TableData>Sonrisal</TableData>
+                    <TableData>Engov</TableData>
+                    <TableData>2</TableData>
+                    <TableData><Button>Detalhes</Button></TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Dorflex</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>Dipirona</TableData>
+                    <TableData>Sonrisal</TableData>
+                    <TableData>Engov</TableData>
+                    <TableData>2</TableData>
+                    <TableData><Button>Detalhes</Button></TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Dorflex</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>Dipirona</TableData>
+                    <TableData>Sonrisal</TableData>
+                    <TableData>Engov</TableData>
+                    <TableData>2</TableData>
+                    <TableData><Button>Detalhes</Button></TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Dorflex</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>Dipirona</TableData>
+                    <TableData>Sonrisal</TableData>
+                    <TableData>Engov</TableData>
+                    <TableData>2</TableData>
+                    <TableData><Button>Detalhes</Button></TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Dorflex</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>Dipirona</TableData>
+                    <TableData>Sonrisal</TableData>
+                    <TableData>Engov</TableData>
+                    <TableData>2</TableData>
+                    <TableData><Button>Detalhes</Button></TableData>
+                </TableRow>  <TableRow>
                     <TableData>Dorflex</TableData>
                     <TableData>12312318239</TableData>
                     <TableData>Dipirona</TableData>

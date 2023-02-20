@@ -18,16 +18,17 @@ export const NavLink = styled(Link)`
   color: white;
   display: flex;
   align-items: center;
+  font-size: 14px;
   text-decoration: none;
   justify-content: flex-end;  
   padding: 0 1rem;
   height: 100%;
-  &.active {
-    color: white;
-    box-shadow: 5px 5px 5px #aba6a2;
+  border-bottom: 2px solid #f0f0f0;
+  :active {
+    border-bottom: 2px solid #f0f0f0;
   }
   :hover {
-    outline: none;
+    border-bottom: none;
   }
 `
 
@@ -63,23 +64,29 @@ export const NavBtn = styled.nav`
   @media screen and (max-width: 768px) {
     display: none;
   }
+ 
 `
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #fff;
+  background: #7996e6;
   padding: 10px 22px;
   color: #000000;
-  outline: none;
-  border: none;
+  font-size: 14px;
+  height:20px;
+  width:30px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   margin-left: 24px;
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    background: #aba6a2;
-    color:  #fff;
+  :hover {
+    box-shadow: 0 0 5px #808080;
+    color: #ffffff;
+  }
+  :disabled {
+    background-color: dimgrey;
+    color: linen;
+    opacity: 1;
   }
 `
 const NavBar = () => {

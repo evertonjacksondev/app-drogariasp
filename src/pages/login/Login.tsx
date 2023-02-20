@@ -11,7 +11,6 @@ const Login = () => {
 
     return (
         <div>
-
             <Section>
                 <Img src={brandLogo} />
                 <Input
