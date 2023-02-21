@@ -7,8 +7,9 @@ interface IProps {
 
 export const Icon = (props: IProps) => {
     return (
-
-        <i className='material-icons'>{props.name ? props.name : ''}</i>
+        <i style={{ fontSize: 13 }} className='material-icons'>{props.name ? props.name : ''}</i>
 
     )
 }
+
+

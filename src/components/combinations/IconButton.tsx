@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import { Fragment } from 'react'
 import { Button } from '../elements/Button'
 import { Icon } from '../elements/Icon'
 
