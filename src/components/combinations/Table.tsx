@@ -65,7 +65,6 @@ const Table = () => {
                     <TableData>2</TableData>
                     <TableData> <TableSection>
                         <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
-
                         <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
 
                     </TableSection></TableData>
@@ -79,9 +78,7 @@ const Table = () => {
                     <TableData>2</TableData>
                     <TableData> <TableSection>
                         <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
-
                         <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
-
                     </TableSection></TableData>
                 </TableRow>
                 <TableRow>
@@ -93,9 +90,7 @@ const Table = () => {
                     <TableData>2</TableData>
                     <TableData> <TableSection>
                         <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
-
                         <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
-
                     </TableSection></TableData>
                 </TableRow>
                 <TableRow>
@@ -107,9 +102,7 @@ const Table = () => {
                     <TableData>2</TableData>
                     <TableData> <TableSection>
                         <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
-
                         <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
-
                     </TableSection></TableData>
                 </TableRow>
                 <TableRow>

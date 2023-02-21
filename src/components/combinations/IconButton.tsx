@@ -17,7 +17,6 @@ const IconButton = ({ iconName, background, label, ...others }: IProps) => {
                 <Icon name={iconName} />
                 {label}
             </Button>
-
         </Fragment >
     )
 }

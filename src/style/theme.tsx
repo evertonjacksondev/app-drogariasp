@@ -14,6 +14,7 @@ export const defaultTheme: DefaultTheme = {
         secondary: {
             main: '#709fb0',
             contrastText: '#ffffff'
-        }
+        },
+        buttoColor: 'black'
     }
 }
