@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-import { Button } from "src/components/elements/Button";
 import styled from "styled-components";
 import IconButton from "./IconButton";
 
@@ -47,12 +46,11 @@ const Table = () => {
     return (
 
         <Fragment>
-
             <Tables>
                 <TableRow>
                     <TableHeader>Descrição do Produto</TableHeader>
                     <TableHeader>Código Interno</TableHeader>
-                    <TableHeader>Nota Fiscal</TableHeader>
+                    <TableHeader>Série - Nota Fiscal</TableHeader>
                     <TableHeader>Número Lote</TableHeader>
                     <TableHeader>Código EAN(GTIN)</TableHeader>
                     <TableHeader>Quantidade</TableHeader>
@@ -61,9 +59,9 @@ const Table = () => {
                 <TableRow>
                     <TableData>Dorflex</TableData>
                     <TableData>12312318239</TableData>
-                    <TableData>Dipirona</TableData>
-                    <TableData>Sonrisal</TableData>
-                    <TableData>Engov</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
                     <TableData>2</TableData>
                     <TableData> <TableSection>
                         <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
@@ -75,9 +73,9 @@ const Table = () => {
                 <TableRow>
                     <TableData>Dorflex</TableData>
                     <TableData>12312318239</TableData>
-                    <TableData>Dipirona</TableData>
-                    <TableData>Sonrisal</TableData>
-                    <TableData>Engov</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
                     <TableData>2</TableData>
                     <TableData> <TableSection>
                         <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
@@ -89,9 +87,9 @@ const Table = () => {
                 <TableRow>
                     <TableData>Dorflex</TableData>
                     <TableData>12312318239</TableData>
-                    <TableData>Dipirona</TableData>
-                    <TableData>Sonrisal</TableData>
-                    <TableData>Engov</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
                     <TableData>2</TableData>
                     <TableData> <TableSection>
                         <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
@@ -103,9 +101,9 @@ const Table = () => {
                 <TableRow>
                     <TableData>Dorflex</TableData>
                     <TableData>12312318239</TableData>
-                    <TableData>Dipirona</TableData>
-                    <TableData>Sonrisal</TableData>
-                    <TableData>Engov</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
                     <TableData>2</TableData>
                     <TableData> <TableSection>
                         <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
@@ -117,9 +115,9 @@ const Table = () => {
                 <TableRow>
                     <TableData>Dorflex</TableData>
                     <TableData>12312318239</TableData>
-                    <TableData>Dipirona</TableData>
-                    <TableData>Sonrisal</TableData>
-                    <TableData>Engov</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
                     <TableData>2</TableData>
                     <TableData> <TableSection>
                         <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
@@ -131,9 +129,9 @@ const Table = () => {
                 <TableRow>
                     <TableData>Dorflex</TableData>
                     <TableData>12312318239</TableData>
-                    <TableData>Dipirona</TableData>
-                    <TableData>Sonrisal</TableData>
-                    <TableData>Engov</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
                     <TableData>2</TableData>
                     <TableData> <TableSection>
                         <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
@@ -144,9 +142,9 @@ const Table = () => {
                 <TableRow>
                     <TableData>Dorflex</TableData>
                     <TableData>12312318239</TableData>
-                    <TableData>Dipirona</TableData>
-                    <TableData>Sonrisal</TableData>
-                    <TableData>Engov</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
                     <TableData>2</TableData>
                     <TableData> <TableSection>
                         <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
@@ -157,9 +155,9 @@ const Table = () => {
                 </TableRow>  <TableRow>
                     <TableData>Dorflex</TableData>
                     <TableData>12312318239</TableData>
-                    <TableData>Dipirona</TableData>
-                    <TableData>Sonrisal</TableData>
-                    <TableData>Engov</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
                     <TableData>2</TableData>
                     <TableData> <TableSection>
                         <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
@@ -169,9 +167,9 @@ const Table = () => {
                 <TableRow>
                     <TableData>Morfina</TableData>
                     <TableData>12312318239</TableData>
-                    <TableData>Hidrocodona</TableData>
-                    <TableData>Metadona</TableData>
-                    <TableData>Oxicodona</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
                     <TableData>20</TableData>
                     <TableData>
                         <TableSection>

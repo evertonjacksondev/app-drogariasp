@@ -1,9 +1,7 @@
 import { Fragment } from "react";
 import IconButton from "src/components/combinations/IconButton";
 import Table from "src/components/combinations/Table";
-import { Button } from "src/components/elements/Button";
 import Container from "src/components/elements/Container";
-import { H1 } from "src/components/elements/H1";
 import { Input } from "src/components/elements/Input";
 import * as C from "src/components/elements/Section";
 
@@ -13,10 +11,10 @@ const Home = () => {
     return (
         <Fragment>
             <C.ConsultFilter>
-                <Input placeholder="Descrição do Produto" />
-                <Input placeholder="Código EAN(GTIN)" />
-                <Input placeholder="Nota Fiscal" />
-                <Input placeholder="Número Lote" />
+                <Input type='text' placeholder="Descrição do Produto" />
+                <Input type='number' placeholder="Código EAN(GTIN)" />
+                <Input type='number' placeholder="Nota Fiscal" />
+                <Input type='number' placeholder="Número Lote" />
             </C.ConsultFilter>
             <C.ConsultFilter>
                 <IconButton iconName="search" label="Pesquisar..." background=" #ee7373" />
