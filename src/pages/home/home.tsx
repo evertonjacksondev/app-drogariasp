@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import IconButton from "src/components/combinations/IconButton";
 import Table from "src/components/combinations/Table";
 import Container from "src/components/elements/Container";
+import Footer from "src/components/elements/Footer";
 import { Input } from "src/components/elements/Input";
 import * as C from "src/components/elements/Section";
 

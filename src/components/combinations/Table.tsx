@@ -171,6 +171,160 @@ const Table = () => {
                         </TableSection>
                     </TableData>
                 </TableRow>
+                <TableRow>
+                    <TableData>Morfina</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
+                    <TableData>20</TableData>
+                    <TableData>
+                        <TableSection>
+                            <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                            <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                        </TableSection>
+                    </TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Morfina</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
+                    <TableData>20</TableData>
+                    <TableData>
+                        <TableSection>
+                            <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                            <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                        </TableSection>
+                    </TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Morfina</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
+                    <TableData>20</TableData>
+                    <TableData>
+                        <TableSection>
+                            <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                            <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                        </TableSection>
+                    </TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Morfina</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
+                    <TableData>20</TableData>
+                    <TableData>
+                        <TableSection>
+                            <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                            <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                        </TableSection>
+                    </TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Morfina</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
+                    <TableData>20</TableData>
+                    <TableData>
+                        <TableSection>
+                            <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                            <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                        </TableSection>
+                    </TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Morfina</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
+                    <TableData>20</TableData>
+                    <TableData>
+                        <TableSection>
+                            <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                            <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                        </TableSection>
+                    </TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Morfina</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
+                    <TableData>20</TableData>
+                    <TableData>
+                        <TableSection>
+                            <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                            <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                        </TableSection>
+                    </TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Morfina</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
+                    <TableData>20</TableData>
+                    <TableData>
+                        <TableSection>
+                            <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                            <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                        </TableSection>
+                    </TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Morfina</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
+                    <TableData>20</TableData>
+                    <TableData>
+                        <TableSection>
+                            <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                            <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                        </TableSection>
+                    </TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Morfina</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
+                    <TableData>20</TableData>
+                    <TableData>
+                        <TableSection>
+                            <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                            <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                        </TableSection>
+                    </TableData>
+                </TableRow>
+                <TableRow>
+                    <TableData>Morfina</TableData>
+                    <TableData>12312318239</TableData>
+                    <TableData>2-78999</TableData>
+                    <TableData>3000</TableData>
+                    <TableData>7896962338618</TableData>
+                    <TableData>20</TableData>
+                    <TableData>
+                        <TableSection>
+                            <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                            <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                        </TableSection>
+                    </TableData>
+                </TableRow>
             </Tables>
         </Fragment>
     );
