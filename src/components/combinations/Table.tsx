@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Button } from "src/components/elements/Button";
 import styled from "styled-components";
+import IconButton from "./IconButton";
 
 const TableHeader = styled.th`
     align-items: 'center';
@@ -37,6 +38,10 @@ border-collapse: collapse;
   overflow-x: auto;
 }
 `
+const TableSection = styled.section`
+  max-width: 1120px;
+  display: flex;
+  flex-direction: row;`
 
 const Table = () => {
     return (
@@ -60,7 +65,12 @@ const Table = () => {
                     <TableData>Sonrisal</TableData>
                     <TableData>Engov</TableData>
                     <TableData>2</TableData>
-                    <TableData><Button>Detalhes</Button></TableData>
+                    <TableData> <TableSection>
+                        <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+
+                        <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+
+                    </TableSection></TableData>
                 </TableRow>
                 <TableRow>
                     <TableData>Dorflex</TableData>
@@ -69,7 +79,12 @@ const Table = () => {
                     <TableData>Sonrisal</TableData>
                     <TableData>Engov</TableData>
                     <TableData>2</TableData>
-                    <TableData><Button>Detalhes</Button></TableData>
+                    <TableData> <TableSection>
+                        <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+
+                        <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+
+                    </TableSection></TableData>
                 </TableRow>
                 <TableRow>
                     <TableData>Dorflex</TableData>
@@ -78,7 +93,12 @@ const Table = () => {
                     <TableData>Sonrisal</TableData>
                     <TableData>Engov</TableData>
                     <TableData>2</TableData>
-                    <TableData><Button>Detalhes</Button></TableData>
+                    <TableData> <TableSection>
+                        <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+
+                        <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+
+                    </TableSection></TableData>
                 </TableRow>
                 <TableRow>
                     <TableData>Dorflex</TableData>
@@ -87,7 +107,12 @@ const Table = () => {
                     <TableData>Sonrisal</TableData>
                     <TableData>Engov</TableData>
                     <TableData>2</TableData>
-                    <TableData><Button>Detalhes</Button></TableData>
+                    <TableData> <TableSection>
+                        <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+
+                        <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+
+                    </TableSection></TableData>
                 </TableRow>
                 <TableRow>
                     <TableData>Dorflex</TableData>
@@ -96,7 +121,12 @@ const Table = () => {
                     <TableData>Sonrisal</TableData>
                     <TableData>Engov</TableData>
                     <TableData>2</TableData>
-                    <TableData><Button>Detalhes</Button></TableData>
+                    <TableData> <TableSection>
+                        <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+
+                        <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+
+                    </TableSection></TableData>
                 </TableRow>
                 <TableRow>
                     <TableData>Dorflex</TableData>
@@ -105,7 +135,11 @@ const Table = () => {
                     <TableData>Sonrisal</TableData>
                     <TableData>Engov</TableData>
                     <TableData>2</TableData>
-                    <TableData><Button>Detalhes</Button></TableData>
+                    <TableData> <TableSection>
+                        <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                        <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+
+                    </TableSection></TableData>
                 </TableRow>
                 <TableRow>
                     <TableData>Dorflex</TableData>
@@ -114,7 +148,12 @@ const Table = () => {
                     <TableData>Sonrisal</TableData>
                     <TableData>Engov</TableData>
                     <TableData>2</TableData>
-                    <TableData><Button>Detalhes</Button></TableData>
+                    <TableData> <TableSection>
+                        <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+
+                        <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+
+                    </TableSection></TableData>
                 </TableRow>  <TableRow>
                     <TableData>Dorflex</TableData>
                     <TableData>12312318239</TableData>
@@ -122,7 +161,10 @@ const Table = () => {
                     <TableData>Sonrisal</TableData>
                     <TableData>Engov</TableData>
                     <TableData>2</TableData>
-                    <TableData><Button>Detalhes</Button></TableData>
+                    <TableData> <TableSection>
+                        <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                        <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                    </TableSection></TableData>
                 </TableRow>
                 <TableRow>
                     <TableData>Morfina</TableData>
@@ -132,9 +174,10 @@ const Table = () => {
                     <TableData>Oxicodona</TableData>
                     <TableData>20</TableData>
                     <TableData>
-                        <Button>
-                            Detalhes
-                        </Button>
+                        <TableSection>
+                            <IconButton height={'25px'} width={'25px'} iconName="edit" label="" background=" #5a5553" />
+                            <IconButton height={'25px'} width={'25px'} iconName="delete" label="" background=" #5a5553" />
+                        </TableSection>
                     </TableData>
                 </TableRow>
             </Tables>

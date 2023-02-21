@@ -1,25 +1,31 @@
 import styled from "styled-components";
 
+interface IProps {
+  background?: string;
+  width?: string;
+  height?: string;
+}
 
 export const Button = styled.button`
-  background: #61a2f7;
-  color: black;
+  background:${(props: IProps) => (props.background ? props.background : '#61a2f7')} ;
+  color: #ffffff;
   border: 0px solid #f3efef;
   border-radius: 3px;
-  width: 120px;
+  width:${(props: IProps) => (props.width ? props.width : '120px')} ;
   margin: 5px;
-  height: 35px;
+  height:${(props: IProps) => (props.height ? props.height : '35px')} ;
   font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   :hover {
     box-shadow: 0 0 5px #808080;
-    color: #ffffff;
+     color: black;
+  
   }
   :disabled {
     background-color: dimgrey;
-    color: linen;
+     color: black;
     opacity: 1;
   }
 `

@@ -11,7 +11,6 @@ const Container = styled.div`
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
-  padding: 0px 0px 30px;
   gap: 10px;
     `
 

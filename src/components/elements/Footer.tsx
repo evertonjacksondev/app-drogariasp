@@ -2,14 +2,14 @@ import styled from "styled-components"
 
 
 const Footer = styled.footer`
-  background-color: gray;
+  background: #0a2c42;
+  justify-content: left;
+  align-items: center;
+  position: absolute;
   bottom: 0;
-  background-position: var(--theme-footer-background-position);
-  left:0;
-  right:0;
-  height: 50px;
-  position:fixed; 
-  width:100%;
+  width: 100%;
+  height: 2.5rem;
+  color: #f7f9f9;
     `
 
 export default Footer 
